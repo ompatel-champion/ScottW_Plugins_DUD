@@ -1814,7 +1814,7 @@ if (!wp_script_is( 'user-directory-style', 'enqueued' )) {
      </tr>
                    
      <tr id="google">
-        <td><b>Google+ Meta Key Name</b></td>
+        <td><b>Calendar Meta Key Name</b></td>
         <td><input type="text" id="ud_google" name="<?php echo $dud_option_name;?>[ud_google]" 
             value="<?php echo !empty($dud_options['ud_google']) ? esc_attr( $dud_options['ud_google'] ) : ""; ?>" maxlength="50"/></td>
         <td></td>
@@ -1863,7 +1863,7 @@ if (!wp_script_is( 'user-directory-style', 'enqueued' )) {
 				    <i style="font-size:25px;" class='fab fa-facebook-square'></i>&nbsp;&nbsp;    
 				    <i style="font-size:25px;" class='fab fa-twitter-square'></i>&nbsp;&nbsp;  
 					<i style="font-size:25px;" class="fab fa-linkedin"></i>&nbsp;&nbsp;    
-					<i style="font-size:25px;" class="fab fa-google-plus-square"></i>&nbsp;&nbsp;    
+					<i style="font-size:25px;" class="fas fa-calendar"></i>&nbsp;&nbsp;
 					<i style="font-size:25px;" class="fab fa-pinterest-square"></i>&nbsp;&nbsp;    
 					<i style="font-size:25px;" class="fab fa-instagram"></i>&nbsp;&nbsp; <BR><BR>   
         	<input type="radio" name="<?php echo $dud_option_name;?>[ud_icon_style]" 
@@ -1871,7 +1871,7 @@ if (!wp_script_is( 'user-directory-style', 'enqueued' )) {
 				    <i style="font-size:25px;" class="fab fa-facebook-f"></i>&nbsp;&nbsp;    
 				    <i style="font-size:25px;" class="fab fa-twitter"></i>&nbsp;&nbsp;  
 					<i style="font-size:25px;" class="fab fa-linkedin-in"></i>&nbsp;&nbsp;    
-					<i style="font-size:25px;" class="fab fa-google-plus-g"></i>&nbsp;&nbsp;    
+					<i style="font-size:25px;" class="fa fa-calendar"></i>&nbsp;&nbsp;
 					<i style="font-size:25px;" class="fab fa-pinterest-p"></i>&nbsp;&nbsp;    
 					<i style="font-size:25px;" class="fab fa-instagram"></i>&nbsp;&nbsp;    	
 		</td>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SshConfigs">
+    <configs>
+      <sshConfig authType="PASSWORD" host="vlinkdev.sftp.wpengine.com" id="c5721446-1cba-4906-a3c0-01c287805b42" port="2222" nameFormat="DESCRIPTIVE" username="vlinkdev-julany" />
+    </configs>
+  </component>
+</project>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="ebc5df72-b10f-4332-a9f9-79cfad7ee941" name="vlinkdev.sftp.wpengine.com">
+        <fileTransfer accessType="SFTP" host="vlinkdev.sftp.wpengine.com" port="2222" sshConfigId="c5721446-1cba-4906-a3c0-01c287805b42" sshConfig="vlinkdev-julany@vlinkdev.sftp.wpengine.com:2222 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

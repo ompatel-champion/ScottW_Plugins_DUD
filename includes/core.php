@@ -1346,33 +1346,33 @@ if($uids)
 					
 					if(!empty($social_flds[0]))
 					{						
-						if($ud_icon_style === "1") $social_icons .= "<a href= '" . $social_flds[0] . "' style='color:" . $ud_icon_color . ";'><i class='fab fa-facebook-square' style='color:" . $ud_icon_color . "!important;font-size:" . $ud_icon_size . "px !important;' aria-hidden='true'></i></a>&nbsp;";
-						else                       $social_icons .= "<a href= '" . $social_flds[0] . "' style='color:" . $ud_icon_color . ";'><i class='fab fa-facebook-f' style='color:" . $ud_icon_color . "!important;font-size:" . $ud_icon_size . "px !important;' aria-hidden='true'></i></a>&nbsp;";
+						if($ud_icon_style === "1") $social_icons .= "<a href= '" . $social_flds[0] . "'" . " target='_blank' style='color:" . $ud_icon_color . ";'><i class='fab fa-facebook-square' style='color:" . $ud_icon_color . "!important;font-size:" . $ud_icon_size . "px !important;' aria-hidden='true'></i></a>&nbsp;";
+						else                       $social_icons .= "<a href= '" . $social_flds[0] . "'" . " target='_blank' style='color:" . $ud_icon_color . ";'><i class='fab fa-facebook-f' style='color:" . $ud_icon_color . "!important;font-size:" . $ud_icon_size . "px !important;' aria-hidden='true'></i></a>&nbsp;";
 					}
 					if(!empty($social_flds[1]))
 					{
-						if($ud_icon_style === "1") $social_icons .= "<a href= '" . $social_flds[1] . "' style='color:" . $ud_icon_color . ";'><i class='fab fa-twitter-square' style='color:" . $ud_icon_color . "!important;font-size:" . $ud_icon_size . "px !important;' aria-hidden='true'></i></a>&nbsp;";
-						else                       $social_icons .= "<a href= '" . $social_flds[1] . "' style='color:" . $ud_icon_color . ";'><i class='fab fa-twitter' style='color:" . $ud_icon_color . "!important;font-size:" . $ud_icon_size . "px !important;' aria-hidden='true'></i></a>&nbsp;";
+						if($ud_icon_style === "1") $social_icons .= "<a href= '" . $social_flds[1] . "'" . " target='_blank' style='color:" . $ud_icon_color . ";'><i class='fab fa-twitter-square' style='color:" . $ud_icon_color . "!important;font-size:" . $ud_icon_size . "px !important;' aria-hidden='true'></i></a>&nbsp;";
+						else                       $social_icons .= "<a href= '" . $social_flds[1] . "'" . " target='_blank' style='color:" . $ud_icon_color . ";'><i class='fab fa-twitter' style='color:" . $ud_icon_color . "!important;font-size:" . $ud_icon_size . "px !important;' aria-hidden='true'></i></a>&nbsp;";
 					}
 					if(!empty($social_flds[2]))
 					{
-						if($ud_icon_style === "1") $social_icons .= "<a href= '" . $social_flds[2] . "' style='color:" . $ud_icon_color . ";'><i class='fab fa-linkedin' style='color:" . $ud_icon_color . "!important;font-size:" . $ud_icon_size . "px !important;' aria-hidden='true'></i></a>&nbsp;";
-						else                       $social_icons .= "<a href= '" . $social_flds[2] . "' style='color:" . $ud_icon_color . ";'><i class='fab fa-linkedin-in' style='color:" . $ud_icon_color . "!important;font-size:" . $ud_icon_size . "px !important;' aria-hidden='true'></i></a>&nbsp;";
+						if($ud_icon_style === "1") $social_icons .= "<a href= '" . $social_flds[2] . "'" . " target='_blank' style='color:" . $ud_icon_color . ";'><i class='fab fa-linkedin' style='color:" . $ud_icon_color . "!important;font-size:" . $ud_icon_size . "px !important;' aria-hidden='true'></i></a>&nbsp;";
+						else                       $social_icons .= "<a href= '" . $social_flds[2] . "'" . " target='_blank' style='color:" . $ud_icon_color . ";'><i class='fab fa-linkedin-in' style='color:" . $ud_icon_color . "!important;font-size:" . $ud_icon_size . "px !important;' aria-hidden='true'></i></a>&nbsp;";
 					}
 					if(!empty($social_flds[3]))
 					{
-						if($ud_icon_style === "1") $social_icons .= "<a href= '" . $social_flds[3] . "' style='color:" . $ud_icon_color . ";'><i class='fab fa-google-plus-square' style='color:" . $ud_icon_color . "!important;font-size:" . $ud_icon_size . "px !important;' aria-hidden='true'></i></a>&nbsp;";
-						else                       $social_icons .= "<a href= '" . $social_flds[3] . "' style='color:" . $ud_icon_color . ";'><i class='fab fa-google-plus-g' style='color:" . $ud_icon_color . "!important;font-size:" . $ud_icon_size . "px !important;' aria-hidden='true'></i></a>&nbsp;";
+						if($ud_icon_style === "1") $social_icons .= "<a href= '" . $social_flds[3] . "'" . " target='_blank' style='color:" . $ud_icon_color . ";'><i class='fas fa-calendar' style='color:" . $ud_icon_color . "!important;font-size:" . $ud_icon_size . "px !important;' aria-hidden='true'></i></a>&nbsp;";
+						else                       $social_icons .= "<a href= '" . $social_flds[3] . "'" . " target='_blank' style='color:" . $ud_icon_color . ";'><i class='fa fa-calendar' style='color:" . $ud_icon_color . "!important;font-size:" . $ud_icon_size . "px !important;' aria-hidden='true'></i></a>&nbsp;";
 					}
 					if(!empty($social_flds[4]))
 					{
-						if($ud_icon_style === "1") $social_icons .= "<a href= '" . $social_flds[4] . "' style='color:" . $ud_icon_color . ";'><i class='fab fa-pinterest-square' style='color:" . $ud_icon_color . "!important;font-size:" . $ud_icon_size . "px !important;' aria-hidden='true'></i></a>&nbsp;";
-						else                       $social_icons .= "<a href= '" . $social_flds[4] . "' style='color:" . $ud_icon_color . ";'><i class='fab fa-pinterest-p' style='color:" . $ud_icon_color . "!important;font-size:" . $ud_icon_size . "px !important;' aria-hidden='true'></i></a>&nbsp;";
+						if($ud_icon_style === "1") $social_icons .= "<a href= '" . $social_flds[4] . "'" . " target='_blank' style='color:" . $ud_icon_color . ";'><i class='fab fa-pinterest-square' style='color:" . $ud_icon_color . "!important;font-size:" . $ud_icon_size . "px !important;' aria-hidden='true'></i></a>&nbsp;";
+						else                       $social_icons .= "<a href= '" . $social_flds[4] . "'" . " target='_blank' style='color:" . $ud_icon_color . ";'><i class='fab fa-pinterest-p' style='color:" . $ud_icon_color . "!important;font-size:" . $ud_icon_size . "px !important;' aria-hidden='true'></i></a>&nbsp;";
 					}
 					if(!empty($social_flds[5]))
 					{
-						if($ud_icon_style === "1") $social_icons .= "<a href= '" . $social_flds[5] . "' style='color:" . $ud_icon_color . ";'><i class='fab fa-instagram' style='color:" . $ud_icon_color . "!important;font-size:" . $ud_icon_size . "px !important;' aria-hidden='true'></i></a>&nbsp;";
-						else                       $social_icons .= "<a href= '" . $social_flds[5] . "' style='color:" . $ud_icon_color . ";'><i class='fab fa-instagram' style='color:" . $ud_icon_color . "!important;font-size:" . $ud_icon_size . "px !important;' aria-hidden='true'></i></a>&nbsp;";
+						if($ud_icon_style === "1") $social_icons .= "<a href= '" . $social_flds[5] . "'" . " target='_blank' style='color:" . $ud_icon_color . ";'><i class='fab fa-instagram' style='color:" . $ud_icon_color . "!important;font-size:" . $ud_icon_size . "px !important;' aria-hidden='true'></i></a>&nbsp;";
+						else                       $social_icons .= "<a href= '" . $social_flds[5] . "'" . " target='_blank' style='color:" . $ud_icon_color . ";'><i class='fab fa-instagram' style='color:" . $ud_icon_color . "!important;font-size:" . $ud_icon_size . "px !important;' aria-hidden='true'></i></a>&nbsp;";
 					}
 									
 					$user_contact_info .= apply_filters('dud_modify_social_flds', $social_icons, $ud_icon_style, $ud_icon_color, $ud_icon_size, $user_id, $loaded_options);
